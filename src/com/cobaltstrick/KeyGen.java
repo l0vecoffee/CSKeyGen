@@ -51,7 +51,7 @@ public class KeyGen {
 
     public static void help(){
         System.out.println(KeyGen.class.getPackage().getName() + " -r cobaltstrike.auth authkey.pub\tRead license file info");
-        System.out.println(KeyGen.class.getPackage().getName() + " -g PrivateKeyFile authkey.pub\tGenerate authkey.pub file, require feed privatekey");
+        System.out.println(KeyGen.class.getPackage().getName() + " -g PrivateKeyFile cobaltstrike.auth\tGenerate cobaltstrike.auth file, require feed privatekey");
         System.out.println(KeyGen.class.getPackage().getName() + " -k PrivateKeyFile PublicKeyFile\tGenerate private key file and public key");
     }
 
